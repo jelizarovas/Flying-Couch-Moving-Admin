@@ -3,7 +3,6 @@ const config = require("config");
 
 const db = config.get("mongoURI");
 // "mongodb://localhost:27017/moving",
-//     "mongodb://arnas:630allenSt.@159.89.155.12:27017/moving",
 
 const connectDB = async () => {
   console.log("well this works");
